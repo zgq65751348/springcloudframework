@@ -1,0 +1,25 @@
+plugins {
+    id 'groovy'
+    id 'java'
+}
+
+group 'org.github'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    compile 'cn.hutool:hutool-all:5.4.1'
+    compile('com.baomidou:mybatis-plus:3.3.2')
+    compile('com.baomidou:mybatis-plus-core:3.3.2')
+    compile('com.baomidou:mybatis-plus-generator:3.3.2')
+    compile('com.baomidou:mybatis-plus-extension:3.3.2')
+    compile('com.baomidou:mybatis-plus-annotation:3.3.2')
+    compile('com.baomidou:mybatis-plus-boot-starter:3.3.2')
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.springframework.boot:spring-boot-starter-webflux')
+    compile('mysql:mysql-connector-java:8.0.21')
+    compile('org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery')
+    compile('org.springframework.cloud:spring-cloud-starter-alibaba-nacos-config')
+}
